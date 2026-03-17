@@ -6,7 +6,7 @@ hero:
   name: "Centipede-RTK"
   text: "Documentation"
   tagline: The open RTK global network
-  image: /assets/images/home.svg
+  image: /home.svg
   actions:
     - theme: brand
       text: Access corrections

@@ -1,5 +1,8 @@
-# Centipede-RTK
+<img src="/logo.svg" alt="logo" width="120">
 
+---
+
+# Centipede-RTK
 ## Collaborative, open and Open Source Real Time Kinematic
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5814772.svg)](https://doi.org/10.5281/zenodo.5814772)
