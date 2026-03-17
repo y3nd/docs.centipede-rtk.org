@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Centipede-RTK",
+  title: "Centipede-RTK Docs",
   description: "Documentation",
   head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   lastUpdated: true,
@@ -27,7 +27,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Build a base',
+        text: 'Build a base station',
         link: '/build-base',
         collapsed: true,
         items: [
@@ -65,25 +65,37 @@ export default defineConfig({
           { text: 'Troubleshooting', link: '/build-base/troubleshooting' },
         ]
       },
-      { text: 'Build a RTK rover', link: '/build-rover' },
-      { text: 'Smartphone rover apps', link: '/smartphone-rover-apps' },
-      { text: 'PC rover', link: '/pc-rover' },
-      { text: 'Proprietary hardware',
+      {
+        text: 'Connect my existing base station',
+        link: '/connect-base',
+      },
+      {
+        text: 'Use a rover',
         collapsed: true,
         items: [
+          { text: 'Build an RTK rover', link: '/rover/build-rover' },
+          { text: 'Buy an RTK rover', link: '/rover/buy-rover' },
+          { text: 'Smartphone rover apps', link: '/rover/smartphone-rover-apps' },
           {
-            text: 'Agriculture', 
-            link: '/proprietary-hardware/agriculture',
+            text: 'Proprietary hardware',
+            collapsed: true,
             items: [
-              { text: 'John Deere', link: '/proprietary-hardware/agriculture/john-deere' },
-              { text: 'Case IH', link: '/proprietary-hardware/agriculture/case-ih' },
-              { text: 'Fendt', link: '/proprietary-hardware/agriculture/fendt' },
-            ],
+              {
+                text: 'Agriculture',
+                link: '/rover/proprietary-hardware/agriculture',
+                items: [
+                  { text: 'John Deere', link: '/rover/proprietary-hardware/agriculture/john-deere' },
+                  { text: 'Case IH', link: '/rover/proprietary-hardware/agriculture/case-ih' },
+                  { text: 'Fendt', link: '/rover/proprietary-hardware/agriculture/fendt' },
+                ],
+              },
+              { text: 'Emlid', link: '/rover/proprietary-hardware/emlid' },
+              { text: 'Trimble', link: '/rover/proprietary-hardware/trimble' },
+              { text: 'Spectra', link: '/rover/proprietary-hardware/spectra' },
+              { text: 'Known issues', link: '/rover/proprietary-hardware/known-issues' },
+            ]
           },
-          { text: 'Emlid', link: '/proprietary-hardware/emlid' },
-          { text: 'Trimble', link: '/proprietary-hardware/trimble' },
-          { text: 'Spectra', link: '/proprietary-hardware/spectra' },
-          { text: 'Known issues', link: '/proprietary-hardware/known-issues' },
+          { text: 'PC rover', link: '/rover/pc-rover' },
         ]
       },
       {
@@ -92,10 +104,10 @@ export default defineConfig({
       },
       {
         text: 'Advanced topics',
-        collapsed: true,  
+        collapsed: true,
         items: [
           { text: 'Tools and resources', link: '/advanced-topics/tools' },
-          { text: 'Existing base integration', link: '/advanced-topics/existing-base-integration' },
+          { text: 'Institutional streams integration', link: '/advanced-topics/institutional-streams' },
           { text: 'NEAR mountpoint', link: '/advanced-topics/near' },
         ]
       },

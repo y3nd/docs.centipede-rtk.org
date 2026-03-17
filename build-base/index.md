@@ -17,4 +17,8 @@ A base in the **Centipède network** must operate **24 hours a day, 365 days a y
 
 The result is a **data stream (RTCM3)** of observations that will be used by another GNSS receiver (the **Rover**) to correct its position.
 
+:::info
+Already have a base station? You can connect it to the Centipede-RTK network. See [this page](../connect-base/) for more details.
+:::
+
 Most RTK receivers can be used either as a **Rover or as a Base**. The following pages will allow you to **build and deploy your own GNSS RTK base**.

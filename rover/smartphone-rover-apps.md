@@ -80,3 +80,17 @@ Share collected data with others as **Geopackages, KMZ, or shapefiles**, or expo
 [Tutorial: Using SW Maps with an RTK Surveyor and Centipede-RTK](https://www-iuem.univ-brest.fr/pops/attachments/2589)
 
 ---
+
+## QField 7025 beta (Open Source)
+
+![qfield](/assets/images/smartphone-apps/qfield_logo.svg)
+
+QField is a free and open source **GIS and mobile mapping application** for collecting, presenting, and sharing geographic information. \
+
+QField native Ntrip support is [currently in development (PR 7025)](https://github.com/opengisch/QField/pull/7025), but [some early builds](https://files.y3n.co/crtk/qfield/QField%20Beta%20PR%207025%20arm.apk) are available for testing.
+
+[QField on the Play Store](https://play.google.com/store/apps/details?id=ch.opengis.qfield&hl=fr&gl=fr)
+[QField on the App Store](https://apps.apple.com/fr/app/qfield-for-qgis/id1531726814)
+[QField GitHub](https://github.com/qgis/QField)
+
+---

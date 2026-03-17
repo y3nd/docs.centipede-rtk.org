@@ -6,7 +6,7 @@ next:
   text: "Setting base coordinates"
   link: "/build-base/setting-base-coordinates"
 ---
-# Positioning a RTK Base station in North America
+# Positioning an RTK Base station in North America
 Countries: United States, Canada, Mexico
 
 ### 1. Convert a log file to a RINEX file

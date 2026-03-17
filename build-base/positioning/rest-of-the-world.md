@@ -6,7 +6,7 @@ next:
   text: "Setting base coordinates"
   link: "/build-base/setting-base-coordinates"
 ---
-# Positioning a RTK Base station in the Rest of the World
+# Positioning an RTK Base station in the Rest of the World
 
 ### 1. Convert a log file into a RINEX file
 

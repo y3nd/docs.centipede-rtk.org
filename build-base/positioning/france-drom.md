@@ -6,7 +6,7 @@ next:
   text: "Setting base coordinates"
   link: "/build-base/setting-base-coordinates"
 ---
-# Positioning a RTK Base station in France and DROM
+# Positioning an RTK Base station in France and DROM
 
 ### 1. Convert a Log File to a RINEX File
 

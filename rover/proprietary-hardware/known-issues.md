@@ -4,6 +4,6 @@ Some John Deere and CHCNAV GNSS receivers seem to have serial throughput limitat
 - Symptoms
   - The tractor console displays a correction age that increases indefinitely.
 - Solutions
-  - Use the mountpoint `NEAR4` which provides a compact version of the `NEAR` stream. Use of `NEAR4` stream is also recommended to reduce data consumption and improve stability of the connection. **It doesn't reduce accuracy whatsoever.**
+  - Use the mountpoint `NEAR4` which provides a compact version of the `NEAR` stream. Use of `NEAR4` stream is also recommended to reduce data consumption and improve stability of the connection. **[doesn't reduce accuracy whatsoever](../../advanced-topics/near.md#measurement-resolution-comparison)**
   - Manually select another base with a lower number of signals
   - Upgrade to an alternative GNSS receiver like CRG RTK Receiver

@@ -2,7 +2,7 @@
 - The `NEAR` mountpoint provides corrections from the closest base station to your location.
 - Only declared bases, that are in the mounttable of the caster, are considered for the `NEAR` mountpoint.
 - 1 km hysteresis is applied to avoid frequent switching between bases when moving around.
-- The `NEAR4` mountpoint provides the same corrections as `NEAR`, but with a compact version of the RTCM3 messages, which reduces data consumption and improves stability of the connection. It is recommended to use `NEAR4` for most applications, as it doesn't reduce accuracy whatsoever.
+- The `NEAR4` mountpoint provides the same corrections as `NEAR`, but with a compact version of the RTCM3 messages, which reduces data consumption and improves stability of the connection. It is recommended to use `NEAR4` for most applications, as it [doesn't reduce accuracy whatsoever](#measurement-resolution-comparison).
 
 ## NEAR4
 - On the `NEAR4` mountpoint, the `NEAR` stream's MSM7 messages are converted to MSM4 messages, which removes information such as
