@@ -10,7 +10,7 @@ next:
 
 ## Bill of materials
 
-Here is the list of items needed to set up a full-frequency **GNSS base** using the [Unicore UM980](https://en.unicore.com/products/surveying-grade-gnss-um980/):
+Here is the list of items needed to set up a full-frequency **GNSS base** using the [Unicore UM980/UM982](https://en.unicore.com/products/surveying-grade-gnss-um980/):
 
 <img src="/assets/images/build-base/receivers/um98x/um980.avif" width="200">
 

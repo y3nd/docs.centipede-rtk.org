@@ -4,11 +4,11 @@
 
 * The 1008 message is not required on the base.
 * Either add an unlocked M2M SIM card, or establish a WiFi connection with your smartphone in hotspot mode. In our case it was not possible to use the M2M SIM card integrated into the antenna because it is locked for use with a paid RTK provider.
-* Survey type – your survey type – rover options: you must use the broadcast format **RTCM RTK**.
+* Survey type - your survey type - rover options: you must use the broadcast format **RTCM RTK**.
 
 ![trimbleR4](/assets/images/proprietary-hardware/trimble/trimble1.avif)
 
-* Survey type – your survey type – mobile data link – click the arrow to the right of the GNSS contact – new
+* Survey type - your survey type - mobile data link - click the arrow to the right of the GNSS contact - new
 
 ![trimbleR4](/assets/images/proprietary-hardware/trimble/trimble2.avif)
 

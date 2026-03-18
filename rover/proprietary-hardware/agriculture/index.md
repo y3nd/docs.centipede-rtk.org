@@ -1,6 +1,6 @@
 # Use Centipede-RTK on agricultural equipment
 
-This compatibility work was carried out by the AgroTIC chair of SupAgro with a group of test farmers. The table presents an excerpt from a non-exhaustive list of compatibility tests performed with the Centipède-RTK network by users working in vineyard cultivation. It lists autoguidance systems that worked in different configurations. The Chamber of Agriculture of the Somme also carried out similar work with users working on industrial crops.
+This compatibility work was carried out by the AgroTIC chair of SupAgro with a group of test farmers. The table presents an excerpt from a non-exhaustive list of compatibility tests performed with the Centipede-RTK network by users working in vineyard cultivation. It lists autoguidance systems that worked in different configurations. The Chamber of Agriculture of the Somme also carried out similar work with users working on industrial crops.
 
 ## [Centipede-RTK technical note](/assets/pdf/proprietary-hardware/agriculture/note_technique_centipede.pdf)
 

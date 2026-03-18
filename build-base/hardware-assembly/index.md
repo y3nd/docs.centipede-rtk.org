@@ -1,6 +1,8 @@
 ---
 prev: false
-next: false
+next:
+  text: "Select a base GNSS receiver"
+  link: "/build-base/hardware-assembly/select-receiver"
 ---
 
 # Hardware & Assembly

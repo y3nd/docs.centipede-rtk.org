@@ -29,7 +29,7 @@ title: Frequently Asked Questions
 
 * ### Why don't I get this accuracy with my smartphone or GNSS receiver?
 
-> Because physical conditions in the atmosphere (ionosphere and troposphere, basically above our heads) constantly change (solar wind, humidity, etc.) and delay the signal emitted by satellites, which introduces measurement bias (around 3–5 m).
+> Because physical conditions in the atmosphere (ionosphere and troposphere, basically above our heads) constantly change (solar wind, humidity, etc.) and delay the signal emitted by satellites, which introduces measurement bias (around 3-5 m).
 
 > Because your smartphone cannot collect the full set of satellite navigation data and differential correction data. Not enough precision...
 
@@ -51,7 +51,7 @@ title: Frequently Asked Questions
 
 > Yes and No. The correction data from the base are sent to a server via WiFi or Ethernet cable (through a modem personal internet box or company network).
 
-> Yes, we use mobile technology (4–5G) to retrieve this data in the field. Therefore, we use an existing transmission.
+> Yes, we use mobile technology (4-5G) to retrieve this data in the field. Therefore, we use an existing transmission.
 
 > No, we deliberately chose this technology to avoid introducing additional radio emissions through the purchase of a dedicated transmission frequency. We therefore use existing infrastructure, with its advantages and disadvantages. [coverage gaps (France)](https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-deploiements-mobiles-en-zones-peu-denses/les-deploiements-mobiles-dans-les-zones-peu-denses.html)
 

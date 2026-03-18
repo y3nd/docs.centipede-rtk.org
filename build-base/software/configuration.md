@@ -8,7 +8,19 @@ To connect to the RTKBase web page, enter the address `http://basegnss.local` in
 
 Another solution is to enter the IP address of the base in your browser. This IP address can be found from the interface of your modem/router (Livebox, Freebox, etc.) or with tools such as [Angry IP Scanner (Windows)](https://angryip.org/) or [Port Authority (Android)](https://play.google.com/store/apps/details?id=com.aaronjwood.portauthority.free&pli=1).
 
-| <a href="../../assets/images/build-base/software/configuration/ip_livebox.avif"><img src="../../assets/images/build-base/software/configuration/ip_livebox.avif" alt="livebox" height="250"/> </a> | <a href="../../assets/images/build-base/software/configuration/ip_angry_ip_scanner.avif"><img src="../../assets/images/build-base/software/configuration/ip_angry_ip_scanner.avif" alt="livebox" height="250"/></a> | <a href="../../assets/images/build-base/software/configuration/ip_port_authority.avif"><img src="../../assets/images/build-base/software/configuration/ip_port_authority.avif" alt="livebox" height="250"/></a>
+<div style="display: flex; gap: 10px; align-items: center;">
+  <a href="/assets/images/build-base/software/configuration/ip_livebox.avif">
+    <img src="/assets/images/build-base/software/configuration/ip_livebox.avif" alt="livebox" style="height: 200px; object-fit: contain;">
+  </a>
+
+  <a href="/assets/images/build-base/software/configuration/ip_angry_ip_scanner.avif">
+    <img src="/assets/images/build-base/software/configuration/ip_angry_ip_scanner.avif" alt="angry ip scanner" style="height: 200px; object-fit: contain;">
+  </a>
+
+  <a href="/assets/images/build-base/software/configuration/ip_port_authority.avif">
+    <img src="/assets/images/build-base/software/configuration/ip_port_authority.avif" alt="port authority" style="height: 200px; object-fit: contain;">
+  </a>
+</div>
 
 In the examples above, you can see that the base uses the IP **192.168.1.12**, so in the browser address bar you can enter `http://192.168.1.12`  
 You may also notice that the base's `.local` suffix became `.home`. This is due to the Livebox; it may be different in your setup.

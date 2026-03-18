@@ -35,8 +35,8 @@ Carrier phase resolution depends on signal wavelength. For example with **GPS L1
 
 * In real GNSS receivers, raw measurement noise is typically:
 
-  * **Code:** ~20–30 cm
-  * **Carrier phase:** ~1–2 mm
+  * **Code:** ~20-30 cm
+  * **Carrier phase:** ~1-2 mm
 
 ### Conclusion
 **MSM4 already exceeds receiver noise for code measurements**

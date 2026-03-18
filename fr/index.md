@@ -6,16 +6,14 @@ hero:
   name: "Centipede-RTK"
   text: "Documentation"
   tagline: Le réseau RTK global ouvert
+  image: /home.svg
   actions:
     - theme: brand
-      text: Accéder à la documentation
+      text: Accéder aux corrections
       link: access/
     - theme: alt
       text: Fabriquer une base
       link: /build-base
-    - theme: alt
-      text: Fabriquer un rover
-      link: /build-rover
 features:
   - title: Précision et qualité
     details: Centipede-RTK est le seul réseau GNSS ouvert et gratuit doté d'un contrôle qualité automatisé et rigoureux du signal et du positionnement des bases. Vous bénéficiez ainsi du meilleur service de localisation à tout moment.

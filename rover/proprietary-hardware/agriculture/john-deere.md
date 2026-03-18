@@ -143,13 +143,13 @@ The image below shows the antenna in operation.
 
 ## Reference documents
 
-- **DOC1:** PFP12907_John_Deere_Mobile_RTK_FR.pdf – John Deere RTK Mobile Reference Guide  
+- **DOC1:** PFP12907_John_Deere_Mobile_RTK_FR.pdf - John Deere RTK Mobile Reference Guide  
   [PFP12907_John_Deere_Mobile_RTK_FR.pdf](https://github.com/jancelin/centipede/files/7530133/PFP12907_John_Deere_Mobile_RTK_FR.pdf)
 
-- **DOC2:** OMPFP21126.pdf – John Deere Mobile RTK 4G LTE Modem Service Manual, Edition F1 (French)  
+- **DOC2:** OMPFP21126.pdf - John Deere Mobile RTK 4G LTE Modem Service Manual, Edition F1 (French)  
   [OMPFP21126.pdf](https://github.com/jancelin/centipede/files/7530139/OMPFP21126.pdf)
 
-- **DOC3:** PFP22140_28.pdf – John Deere Mobile RTK 4G LTE Modem Installation Instructions, 21JUN21 (French)  
+- **DOC3:** PFP22140_28.pdf - John Deere Mobile RTK 4G LTE Modem Installation Instructions, 21JUN21 (French)  
   [PFP22140_28.pdf](https://github.com/jancelin/centipede/files/7530147/PFP22140_28.pdf)
 
 ---
