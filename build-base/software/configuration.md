@@ -1,5 +1,9 @@
 # Software configuration
 
+<script setup>
+import MountpointAvailabilityChecker from '../../components/MountpointAvailabilityChecker.vue'
+</script>
+
 ## Connection
 To connect to the RTKBase web page, enter the address `http://basegnss.local` in a web browser. If it doesn't work, you can use the **Find_rtkbase** application, which will try to detect the base and allow you to open its interface by clicking the **"Open"** button. (requirement: RTKBase 2.6.3)
 
@@ -45,7 +49,7 @@ Everything looks good? If so, go back to the <span style="color:#007BFF">**SETTI
 - not already be used by another base,
 - and avoid names of major cities (for example, **LYON** would be a bad idea).
 
-The list of mount points already declared on the network is available **[in this table](https://gf.centipede-rtk.org/d/ef4e1ohu7fgg0a/mount-point-list?orgId=7)**. (Right-click and open the link in a new tab). In the interface you can click the small gray funnel icon to search directly in **UPPERCASE** in the list.
+<MountpointAvailabilityChecker lang="en" />
 
 The other **Ntrip A service** options should be:
 

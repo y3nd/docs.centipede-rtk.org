@@ -1,5 +1,9 @@
 # Configuration logicielle
 
+<script setup>
+import MountpointAvailabilityChecker from '../../../components/MountpointAvailabilityChecker.vue'
+</script>
+
 ## Connexion
 Pour accéder à la page web RTKBase, entrez l'adresse `http://basegnss.local` dans un navigateur web. Si cela ne fonctionne pas, vous pouvez utiliser l'application **Find_rtkbase**, qui tentera de détecter la base et vous permettra d'ouvrir son interface en cliquant sur le bouton **"Open"**. (nécessite RTKBase 2.6.3)
 
@@ -45,13 +49,13 @@ Tout semble correct ? Si oui, retournez dans l'onglet <span style="color:#007BFF
 - ne pas être déjà utilisé par une autre base,
 - et éviter les noms de grandes villes (par exemple, **LYON** serait une mauvaise idée).
 
-La liste des mount points déjà déclarés sur le réseau est disponible **[dans ce tableau](https://gf.centipede-rtk.org/d/ef4e1ohu7fgg0a/mount-point-list?orgId=7)**. (Faites un clic droit et ouvrez le lien dans un nouvel onglet). Dans l'interface, vous pouvez cliquer sur la petite icône de filtre grise pour rechercher directement en **MAJUSCULES** dans la liste.
+<MountpointAvailabilityChecker lang="fr" />
 
 Les autres options du service **Ntrip A** doivent être :
 
-* **Caster address** : valeur par défaut **crtk.net**
-* **Caster port** : valeur par défaut **2101**
-* **Caster password** : le mot de passe du caster Centipede-RTK est **centipede** (en minuscules, sans accents)
+* **Caster address** : valeur par défaut `crtk.net`
+* **Caster port** : valeur par défaut `2101`
+* **Caster password** : le mot de passe du caster Centipede-RTK est `centipede` (en minuscules, sans accents)
 
 Cliquez sur **Save** et c'est terminé.
 

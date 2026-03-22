@@ -14,3 +14,7 @@ Les corrections sont accessibles via le protocole NTRIP, largement pris en charg
   - **Password**: `centipede`
 - **Format**: RTCM3
 - **Version NTRIP**: les versions 1 et 2 sont prises en charge
+
+:::warning
+Les points de montage `NEAR` ou `NEAR4` doivent recevoir des trames NMEA GGA pour commencer à envoyer les corrections depuis la base la plus proche.
+:::
