@@ -9,11 +9,11 @@ next:
 
 We will use the open-source software [RTKBase](https://github.com/Stefal/rtkbase) to build a homemade GNSS base. These bases are also available as kits or preassembled on [rtkbase.eu](https://rtkbase.eu). This website is managed by the developer of RTKBase.
 
-This step should help you anticipate which hardware to purchase depending on the installation area of the RTK antenna and your possibilities for connecting to an Internet network to broadcast the corrections produced. At the end of the page you can choose between different GNSS receivers, dual-frequency and triple-frequency.
+This step should help you anticipate which hardware to purchase depending on the installation area of the RTK antenna and your possibilities for connecting to an Internet network to broadcast the corrections produced. At the end of the page you can choose between different GNSS receivers.
 
 ### Assembly (excluding the GNSS receiver)
 
-|Material|Price (excl. tax)|
+|Material|Price* (excl. tax)|
 |--------|----|
 |[Orange Pi Zero LTS](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-LTS.html)|€44|
 |[Micro SD 32GB](https://fr.rs-online.com/web/p/cartes-sd/1873617)|€23|
@@ -24,7 +24,9 @@ This step should help you anticipate which hardware to purchase depending on the
 |[Ethernet RJ45 cable (length to be adapted)](https://www.mhzshop.com/shop/Cables-et-cordons/Cordons-reseau/)|€6|
 |[JE-200 waterproof box](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|€16|
 
-If there is no 230V outlet near the base, and/or to simplify the installation, it is possible to use [PoE](https://en.wikipedia.org/wiki/Power_over_Ethernet) to power the base through the Ethernet cable:
+**Prices are indicative and may vary depending on the time and location.*
+
+If there is no mains outlet near the base station, and/or to simplify the installation, it is possible to use [PoE](https://en.wikipedia.org/wiki/Power_over_Ethernet) to power the base station through the Ethernet cable:
 
 ![POE base diagram](/assets/images/build-base/schema_POE.avif)
 

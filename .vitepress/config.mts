@@ -129,7 +129,7 @@ export default defineConfig({
       { text: 'Old version (FR)', link: 'https://docs.centipede.fr' },
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Centipede-rtk' },
+      { icon: 'github', link: 'https://github.com/CentipedeRTK' },
     ],
     footer: {
       message: 'CC BY-SA 4.0 - INRAE & contributors. Centipede-RTK database is provided under Open Database License (ODbL) v1.0.',
@@ -148,8 +148,39 @@ export default defineConfig({
           { text: 'Site principal', link: 'https://www.centipede-rtk.org/fr' },
         ],
         search: {
-          provider: 'local'
+          provider: 'local',
+          options: {
+            locales: {
+              "fr": {
+                translations: {
+                  button: {
+                    buttonText: 'Rechercher',
+                    buttonAriaLabel: 'Rechercher'
+                  },
+                  modal: {
+                    noResultsText: 'Aucun résultat',
+                    resetButtonTitle: 'Effacer la recherche',
+                    footer: {
+                      selectText: 'sélectionner',
+                      navigateText: 'naviguer',
+                      closeText: 'fermer'
+                    }
+                  }
+                }
+              }
+            }
+          }
         },
+        docFooter: {
+          prev: 'Page précédente',
+          next: 'Page suivante'
+        },
+        lastUpdated: {
+          text: 'Dernière mise à jour'
+        },
+        darkModeSwitchLabel: 'Thème',
+        lightModeSwitchTitle: 'Activer le thème clair',
+        darkModeSwitchTitle: 'Activer le thème sombre',
         logo: '/logo.svg',
         sidebar: [
           {
@@ -266,7 +297,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/Centipede-rtk' },
+          { icon: 'github', link: 'https://github.com/CentipedeRTK' },
         ],
         footer: {
           message: 'CC BY-SA 4.0 - INRAE & contributeurs. La base de données Centipede-RTK est fournie sous la licence Open Database License (ODbL) v1.0.',

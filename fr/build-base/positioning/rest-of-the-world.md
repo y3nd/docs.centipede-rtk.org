@@ -6,6 +6,9 @@ next:
   text: "Définir les coordonnées de la base"
   link: "/fr/build-base/setting-base-coordinates"
 ---
+<script setup>
+import NRCANCoordinatesExtractor from '../../../components/NRCANCoordinatesExtractor.vue'
+</script>
 # Positionner une station de base RTK dans le reste du monde
 
 ### 1. Convertir un fichier journal en fichier RINEX
@@ -32,11 +35,12 @@ next:
 **Assurez-vous d'utiliser un fichier RINEX de plus de 15 jours afin d'obtenir un positionnement précis !**  
 Cette étape corrige les données brutes de votre base RTK à l'aide de la méthode PPP du NRCAN : [NRCAN](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/tools-outils/ppp.php)
 
-* Rendez-vous sur le site du [NRCAN](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/tools-outils/ppp.php)
+* Rendez-vous sur le site du [NRCAN](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/tools-outils/ppp.php?locale=fr)
 * Démarrez une session en saisissant vos informations d'identité
-* Choisissez le mode de traitement **static** et **ITRF**
+* Choisissez le mode de traitement **statique** et **ITRF**
+* Sélectionnez l'époque **Époque des données GNSS**
 * Téléversez le fichier d'observation RINEX généré précédemment
-* Cliquez sur **Submit to PPP**
+* Cliquez sur **Soumettre à PPP**
 
 ![log2rinex](/assets/images/build-base/positioning/nrcan.avif)
 
@@ -83,10 +87,15 @@ GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 * Adaptez-les pour les insérer dans votre base GNSS : retirez les **[]** et remplacez les **,** par un espace :  
 **46.16483353 -0.94853206 65.270**
 
+<NRCANCoordinatesExtractor lang="fr" />
+
 ![itrf2etrf](/assets/images/build-base/positioning/rtkbase-coordinates.avif)
 
-> Vos coordonnées géographiques se trouvent désormais dans un système de référence international global.  
-Chaque continent et/ou pays utilise souvent aussi un système de coordonnées local, comme **ETRF2000** en Europe ou **RGF93** en France, afin de tenir compte des mouvements tectoniques locaux.
+> Vos coordonnées géographiques se trouvent désormais dans le système de référence international global.
+
+> Il est nécessaire de spécifier l'époque des coordonnées car c'est un système de référence géodésique dynamique qui évolue dans le temps en raison des mouvements tectoniques. 
+
+> Chaque continent et/ou pays utilise en général un système de coordonnées local, comme **ETRF2000** en Europe ou **RGF93** en France, afin de tenir compte des mouvements tectoniques locaux : les coordonnées sont alors quasiment fixes dans le temps.
 
 Si vous avez besoin de coordonnées correspondant au système de coordonnées utilisé dans votre pays, faites-nous part de vos besoins sur le [forum](https://forum.geocommuns.fr/c/rtk-centipede/18).
 

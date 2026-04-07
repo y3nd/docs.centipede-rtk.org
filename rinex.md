@@ -16,6 +16,3 @@ Currently, RINEX observations files are only available for declared bases in the
 
 ## With access to a RTKBase web interface
 If you have access to the RTKBase web interface of a base station, you can generate and download the RINEX files directly from the **File Service** tab.
-
-## Future developments
-The Centipede-RTK team is working on a solution to store and make RINEX files available for all bases in the network, including those outside of France. *Stay tuned for updates on this topic!*

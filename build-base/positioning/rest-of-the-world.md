@@ -6,6 +6,9 @@ next:
   text: "Setting base coordinates"
   link: "/build-base/setting-base-coordinates"
 ---
+<script setup>
+import NRCANCoordinatesExtractor from '../../../components/NRCANCoordinatesExtractor.vue'
+</script>
 # Positioning an RTK Base station in the Rest of the World
 
 ### 1. Convert a log file into a RINEX file
@@ -84,10 +87,15 @@ GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 * Adapt them to insert them into your GNSS base: remove the **[]** and replace the **,** with a space:  
 **46.16483353 -0.94853206 65.270**
 
+<NRCANCoordinatesExtractor lang="en" />
+
 ![itrf2etrf](/assets/images/build-base/positioning/rtkbase-coordinates.avif)
 
-> Your geographic coordinates are now in a global international reference system.  
-Each continent and/or country often also uses a local coordinate system, such as **ETRF2000** in Europe or **RGF93** in France, in order to account for local tectonic movements.
+> Your geographic coordinates are now in a global international reference system.
+
+> It is necessary to specify the epoch of the coordinates because it is a dynamic geodetic reference system that evolves over time due to tectonic movements.
+
+> Each continent and/or country often also uses a local coordinate system, such as **ETRF2000** in Europe or **RGF93** in France, in order to account for local tectonic movements: the coordinates are then almost fixed over time.
 
 If you need your coordinates to match the coordinate system used in your country, please let us know your requirements on the [forum](https://forum.geocommuns.fr/c/rtk-centipede/18).
 

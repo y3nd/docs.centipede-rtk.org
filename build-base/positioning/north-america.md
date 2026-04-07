@@ -6,8 +6,11 @@ next:
   text: "Setting base coordinates"
   link: "/build-base/setting-base-coordinates"
 ---
+<script setup>
+import NRCANCoordinatesExtractor from '../../../components/NRCANCoordinatesExtractor.vue'
+</script>
 # Positioning an RTK Base station in North America
-Countries: United States, Canada, Mexico
+Countries: *United States, Canada, Mexico*
 
 ### 1. Convert a log file to a RINEX file
 
@@ -16,7 +19,7 @@ Countries: United States, Canada, Mexico
 ![log2rinex](/assets/images/build-base/positioning/log2rinex1.avif)
 
 * A window opens offering to convert the log file into a RINEX file.
-* If you are outside France: **Use a log file older than 15 days**, then choose the **NRCAN** preset, which is compatible with NRCAN's online services for precise positioning calculations. Click **Create Rinex File**.
+* **Use a log file older than 15 days**, then choose the **NRCAN** preset, which is compatible with NRCAN's online services for precise positioning calculations. Click **Create Rinex File**.
 
 ![log2rinex](/assets/images/build-base/positioning/log2rinex1_nrcan.avif)
 
@@ -89,9 +92,11 @@ GRS80 ellipsoid used for the transformation from (x,y,z) to (lat,lon,h)
 * Adapt them to insert into your GNSS base: remove the **"[]"** and replace the **","** with spaces →
   **46.29858940 -71.65715354 134.493**
 
+<NRCANCoordinatesExtractor lang="fr" />
+
 ![itrf2etrf](/assets/images/build-base/positioning/rtkbase-coordinates.avif)
 
-> Your geographic coordinates are now in a global international reference system.
+> Your geographic coordinates are now in the North America regional reference system.
 > Each continent and/or country often also has its own **local coordinate system**, such as **ETRF2000 in Europe**, **RGF93 in France**, or **NAD83 in Canada**, in order to account for local tectonic movements.
 
 If you need coordinates that match your country's local coordinate system, please let us know your requirements on the [forum](https://forum.geocommuns.fr/c/rtk-centipede/18).
