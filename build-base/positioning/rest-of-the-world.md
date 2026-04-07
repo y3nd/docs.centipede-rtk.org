@@ -7,7 +7,7 @@ next:
   link: "/build-base/setting-base-coordinates"
 ---
 <script setup>
-import NRCANCoordinatesExtractor from '../../../components/NRCANCoordinatesExtractor.vue'
+import NRCANCoordinatesExtractor from '../../components/NRCANCoordinatesExtractor.vue'
 </script>
 # Positioning an RTK Base station in the Rest of the World
 

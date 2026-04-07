@@ -7,7 +7,7 @@ next:
   link: "/build-base/setting-base-coordinates"
 ---
 <script setup>
-import NRCANCoordinatesExtractor from '../../../components/NRCANCoordinatesExtractor.vue'
+import NRCANCoordinatesExtractor from '../../components/NRCANCoordinatesExtractor.vue'
 </script>
 # Positioning an RTK Base station in North America
 Countries: *United States, Canada, Mexico*
@@ -92,7 +92,7 @@ GRS80 ellipsoid used for the transformation from (x,y,z) to (lat,lon,h)
 * Adapt them to insert into your GNSS base: remove the **"[]"** and replace the **","** with spaces →
   **46.29858940 -71.65715354 134.493**
 
-<NRCANCoordinatesExtractor lang="fr" />
+<NRCANCoordinatesExtractor lang="en" />
 
 ![itrf2etrf](/assets/images/build-base/positioning/rtkbase-coordinates.avif)
 
