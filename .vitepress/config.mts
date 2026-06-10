@@ -6,6 +6,9 @@ export default defineConfig({
   description: "Documentation",
   head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://docs.centipede-rtk.org'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
